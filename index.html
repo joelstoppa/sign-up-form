@@ -39,23 +39,27 @@
             </div>
             <div id="second-section">
                 <h3>Let's do this!</h3>
-                <form>
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" placeholder="Your name..">
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" placeholder="Your last name..">
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" placeholder="example@email.com">
-                    <label for="phone-number">PHONE NUMBER</label>
-                    <input type="tel" placeholder="123 456789">
-                    <label for="pass">PASSWORD (MIN 8 CHARACTERS)</label>
-                    <input type="password" id="pass">
-                    <label for="confirm-pass">CONFIRM PASSWORD</label>
-                    <input type="password" id="confirm-pass">
+                <form id="register">
+                    <div id="form-left">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" placeholder="Your name..">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" placeholder="example@email.com">
+                        <label for="pass">PASSWORD</label>
+                        <input type="password" id="pass">
+                    </div>
+                    <div id="form-right">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" placeholder="Your last name..">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" placeholder="123 456789">
+                        <label for="confirm-pass">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-pass">
+                    </div>  
                 </form> 
             </div>
             <div id="third-section">
-                <button>Create Account</button>
+                <button type="submit" form="register">Create Account</button>
                 <p> Already have an account? <a href="">Log in</a></p>
             </div>
         </div>
