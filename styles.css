@@ -2,6 +2,9 @@ main {
     display: flex;
     
 }
+img {
+    height: 90px;
+}
 
 #image {
     width: 30vw;
