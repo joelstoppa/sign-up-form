@@ -1,0 +1,14 @@
+main {
+    display: flex;
+    
+}
+
+#image {
+    width: 30vw;
+    height: 90vh;
+    background-image: url(image.jpg);
+    background-size: cover ;
+    overflow: hidden;
+    
+
+}
