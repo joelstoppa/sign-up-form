@@ -1,9 +1,10 @@
+* {
+    font-family: "Roboto Mono", sans-serif;
+}
+
 main {
     display: flex;
     
-}
-img {
-    height: 90px;
 }
 
 #image {
@@ -12,4 +13,23 @@ img {
     background-image: url(image.jpg);
     background-size: cover ;
     overflow: hidden;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background: rgba(255, 255, 255, 0.0.8);
+    
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.5px);
+    -webkit-backdrop-filter: blur(6.5px);
+    border: 1px solid rgba(255, 255, 255, 0.27);
+    position: relative;
+    top: 33%;
+
 }
