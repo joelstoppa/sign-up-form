@@ -1,14 +1,16 @@
 * {
     font-family: "Roboto Mono", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
     --main-color: rgb(226, 226, 226);
 }
 
-html {
+/* html {
     background-color: #000000;
-}
+} */
 
 main {
     display: flex;
@@ -154,6 +156,7 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    padding-top: 1.5rem;
     background-color: #ffffff;
 }
 .fa-github {
