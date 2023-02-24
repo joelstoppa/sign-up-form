@@ -42,19 +42,20 @@
                 <form id="register">
                     <div id="form-left">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" placeholder="Your name..">
+                        <input type="text" id="first-name" placeholder="Your name.." required>
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" placeholder="example@email.com">
+                        <input type="email" id="email" placeholder="example@email.com" required>
                         <label for="pass">PASSWORD</label>
-                        <input type="password" id="pass">
+                        <input type="password" id="pass" required>
+                        <span id="passMatch"></span>
                     </div>
                     <div id="form-right">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" placeholder="Your last name..">
+                        <input type="text" id="last-name" placeholder="Your last name.." required>
                         <label for="phone-number">PHONE NUMBER</label>
-                        <input type="tel" placeholder="123 456789">
+                        <input type="tel" placeholder="123 456789" required>
                         <label for="confirm-pass">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirm-pass">
+                        <input type="password" id="confirm-pass" required>
                     </div>  
                 </form> 
             </div>
