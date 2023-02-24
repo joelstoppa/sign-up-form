@@ -8,10 +8,6 @@
     --main-color: rgb(226, 226, 226);
 }
 
-/* html {
-    background-color: #000000;
-} */
-
 main {
     display: flex;
     
@@ -58,6 +54,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: end;
+    gap: 3rem;
     padding: 2rem 8rem 2rem 2rem;
     background-color: var(--main-color);
     height: 30vh;
@@ -68,6 +65,7 @@ main {
 #second-section {
     height: 30vh;
     display: flex;
+    gap: 1rem;
     padding: 1rem 2rem;
     flex-direction: column;
     background-color: white;
