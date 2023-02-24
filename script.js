@@ -11,8 +11,13 @@ function verifyPassword() {
 
     if (password !== confirmPassword) {
         text.innerText = "Passwords must match"
+        passwordField.classList.add("invalid")
+        confirmPasswordField.classList.add("invalid")
     }
     else {
         text.innerText = ""
+        passwordField.classList.remove("invalid")
+        confirmPasswordField.classList.remove("invalid")
+
     }
 }
